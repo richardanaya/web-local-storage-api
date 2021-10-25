@@ -21,6 +21,20 @@ operating systemz appropriate configuration location based off your project name
 
 [Docs](https://docs.rs/web-local-storage-api)
 
+```rust
+// set a value of the key value pair, this is automatically saved
+web_local_storage_api::set_item("foo","bar")?;
+
+// retrieve a key value
+web_local_storage_api::get_item("foo")?; // returns `Some("bar")`
+
+// remove the key value
+web_local_storage_api::remove_item("foo")?;
+
+// clear all key values
+web_local_storage_api::clear()?;
+```
+
 # License
 
 This project is licensed under either of
