@@ -12,9 +12,9 @@ The Web LocalStorage API provides a simple way for storing string key value pair
 operating systemz appropriate configuration location based off your project name.
 
 ```
-// Linux:   /home/alice/.config/barapp
-// Windows: C:\Users\Alice\AppData\Roaming\barapp
-// macOS:   /Users/Alice/Library/Application Support/barapp
+Linux:   /home/alice/.config/my_app
+Windows: C:\Users\Alice\AppData\Roaming\my_app
+macOS:   /Users/Alice/Library/Application Support/my_app
 ```
 
 ## Usage
