@@ -9,7 +9,7 @@ A Rust implementation of the Web LocalStorage API, for use in non-browser contex
 [MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
 
 The Web LocalStorage API provides a simple way for storing string key value pairs for your app.  These values will be stored in your 
-operating systemz appropriate configuration location based off your project name.
+operating system's appropriate configuration location based off your crate project name.
 
 ```
 Linux:   /home/alice/.config/my_app
